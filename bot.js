@@ -113,8 +113,8 @@ bot.on('message', message => {
       '8ball | ask 8ball a question!\n'+
       'mute | mutes a user\n'+
       'ban | bans a user\n'+
-      'kick | kicks a user\n+
-      'unmute | unmutes a user\n+
+      'kick | kicks a user\n'+
+      'unmute | unmutes a user\n'+
       'admin-commands | please see file bot.js\n```');
   }
 
