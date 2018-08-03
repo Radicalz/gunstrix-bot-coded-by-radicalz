@@ -13,7 +13,7 @@ var cleverON = false;
 var RESTRICT_CLEVERBOT_TO_CHANNEL = false
 var cleverbot = require("cleverbot.io");
 var notifydevchannel = 0;
-var ownerID = '473130447467970560';
+var ownerID = '';
 var coownerID1 = '';
 var coownerID2 = '';
 var coownerID3 = '';
@@ -110,7 +110,12 @@ bot.on('message', message => {
       'randommeme | Posts a random ass meme\n'+
       'mlg | mlg grandma\n'+
       'spam | sends you spam!\n'+
-      '8ball | ask 8ball a question!\n```');
+      '8ball | ask 8ball a question!\n'+
+      'mute | mutes a user\n'+
+      'ban | bans a user\n'+
+      'kick | kicks a user\n+
+      'unmute | unmutes a user\n+
+      'admin-commands | please see file bot.js\n```');
   }
 
   if (message.content === prefix + 'inviteme') {
