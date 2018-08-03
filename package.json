@@ -1,0 +1,25 @@
+{
+  "name": "gunstrix-bot",
+  "version": "1.0.0",
+  "description": "Bot made for Gunstrix!",
+  "main": "bot.js",
+  "dependencies": {
+    "cleverbot.io": "^1.0.4",
+    "discord.js": "^11.3.2",
+    "heroku": "^7.7.8",
+    "imgur-node-api": "^0.1.0",
+    "lib": "^3.0.2",
+    "opusscript": "^0.0.3",
+    "websocket": "^1.0.26",
+    "ytdl-core": "^0.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Radicalz#7644",
+  "license": "ISC",
+  "directories": {
+    "lib": "lib"
+  }
+}
